@@ -1,0 +1,239 @@
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: linear-gradient(to bottom,#6993b4, #05087a);
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 1.125rem;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.ster {
+    margin-top: 30px;
+    align-items: center;
+    width: 135px;
+    height: 145px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.outdoorimg1 {
+    width: 400px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 55px;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.card1 {
+    background-image: url(images/unmzfinal.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 200px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+.card2 {
+    background-image: url(images/hikfinal.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+.card3 {
+    background-image: url(images/cmp1.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+.cards h2 {
+    color: black;
+}
+.cards i {
+    font-size: 100px;
+    color: black;
+}
+
+.My-Button{
+    background-color: white;
+    color: #FA4083 ;
+    font-family:'Playfair Display', serif;
+    padding: 11px 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+a.My-Button {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 3px
+}
+
+nav a.My-Button {
+    margin-left: 30px;
+}
+
+ nav {
+ padding-right: 150px;
+ }
+
+.edunav {
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 150px;
+}
+
+.Wu {
+text-align: center;
+}
+
+.wuimg {
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 75px;
+}
+.wuimg1 {
+    width: 200px;
+    height: 150px;
+    padding-left: 300px;
+}
+
+.wuimg2 {
+    width: 200px;
+    height: 180px;
+    padding-left: 60px;
+}
+
+.wuimg3 {
+    width: 250px;
+    height: 180px;
+    padding-right: 300px;
+}
+
+.wuh2 {
+    text-align: center;
+}
+
+.etsyd {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.bernd {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.sandiad {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#col1-box {
+    width: 20%;
+    height: 300px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    
+}
+
+.pc {
+    color: white;
+    font-size: 1rem;
+}
