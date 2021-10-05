@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.eduimg {
+    width: 100%;
+}
+
+.educards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.educard {
+    position: relative;
+    width: 408px;
+    padding-bottom: 50px;
+    background-color: aqua;
+    box-shadow: 0, 21px, 35px, rgb(0 0 0 / .10);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.educard .edutext {
+    padding: 15px;
+}
+
+.educard p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.educard h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.educard .more-btn {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 9;
+    font-size: 20px;
+    transition: all ease 0.5s;
+
+}
+
+.educard .more-btn:hover {
+    background-color: #f7f7f7;
+    color: #ea7f04;
+}
+
+.moreedutext {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff8800;
+    padding: 30px;
+    overflow-y: auto;
+    transition: all ease 0.7s;
+}
+
+.moreedutext::-webkit-scrollbar {
+    width: 7px;
+    background-color: #b3b3b3;
+}
+
+.moreedutext::-webkit-scrollbar-thumb {
+    background-color: #c76d06;
+}
+
+.moreedutext h2 {
+    color: #fff;
+}
+
+.moreedutext p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-right: 35px;
+}
+
+.moreedutext.active {
+    bottom: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="educards">
+            <div class="educard">
+                <div class="eduimg">
+                    <img src="images/Berncoseal-removebg-preview.png" alt="etsy image">
+                </div>
+                <div class="edutext">
+                    <h2>test1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae magni assumenda incidunt, fugit tenetur? Incidunt unde ab ratione magni, suscipit officiis natus tempore voluptas explicabo culpa at, adipisci dolor.</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+                <div class="moreedutext">
+                    <h2>moretesttext</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum corporis, consequuntur iusto magni vitae minima labore ad iure natus deserunt adipisci facere possimus fuga tenetur hic aliquid facilis rerum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem natus cupiditate nisi molestiae tenetur atque, accusantium est quia quaerat perspiciatis quidem adipisci quod! Nesciunt ab autem necessitatibus ea id!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit perspiciatis explicabo, adipisci illum asperiores, doloremque accusantium deserunt praesentium quia quis culpa mollitia maiores sapiente cumque soluta perferendis obcaecati reprehenderit illo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officiis necessitatibus obcaecati quod dolore ducimus quo laborum repellendus! Magni hic vero harum similique commodi obcaecati expedita ex tenetur, ut excepturi?</p>
+                </div>
+            </div>
+            <div class="educard">
+                <div class="eduimg">
+                    <img src="images/Berncoseal-removebg-preview.png" alt="bernco image seal">
+                </div>
+                <div class="edutext">
+                    <h2>test1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae magni assumenda incidunt, fugit tenetur? Incidunt unde ab ratione magni, suscipit officiis natus tempore voluptas explicabo culpa at, adipisci dolor.</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+                <div class="moreedutext">
+                    <h2>moretesttext</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum corporis, consequuntur iusto magni vitae minima labore ad iure natus deserunt adipisci facere possimus fuga tenetur hic aliquid facilis rerum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem natus cupiditate nisi molestiae tenetur atque, accusantium est quia quaerat perspiciatis quidem adipisci quod! Nesciunt ab autem necessitatibus ea id!</p>
+                </div>
+            </div>        <div class="educard">
+                <div class="eduimg">
+                    <img src="images/snledu-removebg-preview.png" alt="sandia logo">
+                </div>
+                <div class="edutext">
+                    <h2>test1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil recusandae magni assumenda incidunt, fugit tenetur? Incidunt unde ab ratione magni, suscipit officiis natus tempore voluptas explicabo culpa at, adipisci dolor.</p>
+                    <div class="more-btn">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+                <div class="moreedutext">
+                    <h2>moretesttext</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum corporis, consequuntur iusto magni vitae minima labore ad iure natus deserunt adipisci facere possimus fuga tenetur hic aliquid facilis rerum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem natus cupiditate nisi molestiae tenetur atque, accusantium est quia quaerat perspiciatis quidem adipisci quod! Nesciunt ab autem necessitatibus ea id!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".more-btn").on('click', function(){
+                $(this).parent().parent().find(".moreedutext").toggleClass("active");
+            })
+        })
+    </script>
+</body>
+</html>

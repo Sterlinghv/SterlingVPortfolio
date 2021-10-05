@@ -1,3 +1,9 @@
+<?php
+
+include 'sql.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,12 +22,12 @@
     
         <script src="https://kit.fontawesome.com/98ac3dc891.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bod4">
     <header>
         <nav class="edunav">
             <a href="index.html" class="My-Button">Home</a>
             <a href="workexperince.html" class="My-Button">Work Experince</a>
-            <a href="education.html" class="My-Button">Education</a>
+            <a href="skills.html" class="My-Button">Skills & Projects</a>
             <a href="sqls.html" class="My-Button">SQL Survey</a>
         </nav><br>
     </header>
@@ -37,12 +43,14 @@
     <br>
 
     <div id="col1-box">
+    <form action="sql.php" method="post">
         <input id="txusername" type="text" placeholder="Enter Name"> <br />
         <br>
         <br>
         <p class="pc">Enter Comment</p>
         <textarea name="Comment" id="comment1" cols="30" rows="10"></textarea>
-        <input id="btsubmit" type="button" value="Submit"> <br /> <br />
+        <button id="btsubmit" type="submit" value="Submit"> <br /> <br />
+    </form>
     </div>
 </body>
 </html>
